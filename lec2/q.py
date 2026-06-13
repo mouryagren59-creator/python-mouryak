@@ -1,0 +1,16 @@
+l=[]
+print(type(l))
+l.append("5")
+l.append(5)
+print(l)
+l.insert(1,5.0)
+print(l)
+l.pop(1)
+print(l)
+ll=[1,2,3,4,4,4,4,55,5,6,7]
+ll.remove(5)
+print(ll)
+ll.reverse()
+print(ll)
+print(ll.index(55))
+print(ll.count(4))
